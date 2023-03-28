@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">doomyfreeX</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <form id="form">
+        <label for="A">Link URL</label>
+        <input type="text" id="epid-i" style="width: 100px;">
+
+        <label for="B">EP</label>
+        <input type="number" id="cpt-i" style="width: 50px;">
+
+        <button class="button-27" type="submit" style="margin-left: 10px;">Submit</button>
+    </form>
+
+    <button class="button-27" id="reloadBtn" onclick="Reload()">Reload</button>
+
+    <div class="np-element">
+        <button class="button-50" id="previousBtn" style="right: 20px;" onclick="Previous()">ตอนที่แล้ว</button>
+        <button class="button-50" id="nextBtn" onclick="Next()">ตอนต่อไป</button>
+    </div>
+
+    <div class="container">
+        <div>
+            <button id="scrollToTopBtn" onclick="scrollToTop()">Top</button>
+            <a id="ct-name">Cartoon Name</a>
+            <a id="link"></a>
+            <div id="ct-ep">Cartoon Chapter</div>
+            <div id="img-load"></div>
+        </div>
+    </div>
+
+    <div class="np-element">
+        <button class="button-50" id="previousBtn" style="right: 20px;" onclick="Previous()">ตอนที่แล้ว</button>
+        <button class="button-50" id="nextBtn" onclick="Next()">ตอนต่อไป</button>
+    </div>
+
+    <script src="js/function.js"></script>
+    <script src="js/submit.js"></script>
+    <script src="js/variables.js"></script>
+</body>
+</html>
