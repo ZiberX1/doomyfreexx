@@ -35,8 +35,8 @@ form {
     margin-left: auto;
 }
 
-img {
-    /* width: 70%; */
+.container div #img-load img {
+    width: 70%;
     display: block;
     margin: 0 auto;
 }
@@ -211,5 +211,8 @@ img {
     }
     form {
         max-width: 340px;
+    }
+    .container div #img-load img {
+        width: 100%;
     }
 }
