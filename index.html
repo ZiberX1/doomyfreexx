@@ -11,9 +11,15 @@
 </head>
 <body>
     <form id="form">
-        <label for="url">Link URL</label>
-        <input type="text" id="epid-i" style="display: inline-block; width: 45%;">
-        <select id="cpt-i" style="display: inline-block; width: 30%;"></select>
+        <div>
+            <label for="url">Link URL</label>
+            <input type="text" id="epid-i" style="display: inline-block; width: 45%;">
+            <select id="cpt-i" style="display: inline-block; width: 30%;"></select>
+        </div>
+        <div>
+            <label for="cb_lastest">Lastest</label>
+            <input type="checkbox" id="cb_lastest">
+        </div>
         <br><button class="button-27" type="submit" style="display: block;max-width: 1140px;margin-right: auto;margin-left: auto;margin-top: 10px;">Load</button>
     </form>
 
@@ -24,12 +30,12 @@
 
     <div class="container">
         <div>
-            <button id="scrollToTopBtn" onclick="scrollToTop()">Top</button>
             <a id="ct-name">Cartoon Name</a>
             <a id="link" target="_blank"></a>
             <div id="ct-ep">Cartoon Chapter</div>
-            <div id="img-load" oncontextmenu="return false;"></div>
+            <div id="img-load"></div>
         </div>
+        <button id="scrollToTopBtn" onclick="scrollToTop()">Top</button>
     </div>
 
     <div class="np-element">
@@ -37,8 +43,6 @@
         <button class="button-50" id="nextBtn" onclick="Next()">ตอนต่อไป</button>
     </div>
 
-    <script src="js/function.js"></script>
-    <script src="js/event.js"></script>
-    <script src="js/variables.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
