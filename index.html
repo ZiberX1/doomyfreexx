@@ -7,7 +7,6 @@
     <title id="title">doomyfreeX</title>
     <link rel="icon" href="image/zx.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
     <form id="form">
@@ -20,8 +19,12 @@
             <label for="cb_lastest">Lastest</label>
             <input type="checkbox" id="cb_lastest">
         </div>
-        <br><button class="button-27" type="submit" style="display: block;max-width: 1140px;margin-right: auto;margin-left: auto;margin-top: 10px;">Load</button>
+        <br><button class="button-27" type="submit" style="display: block;max-width: 1140px;margin-right: auto;margin-left: auto;margin-top: 10px;">Submit</button>
     </form>
+    <div class="container">
+        <textarea name="sourceX" id="page-source" cols="75" rows="2">page source</textarea>
+        <br><button onclick="loadSource()" id="loadsource">load</button>
+    </div>
 
     <div class="np-element">
         <button class="button-50" id="previousBtn" style="right: 20px;" onclick="Previous()">ตอนที่แล้ว</button>
